@@ -1,0 +1,31 @@
+.container-result {
+  background-color: #44c444;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+}
+.child-result {
+  background-color: green;
+  width: 20%; 
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: green;
+  border-radius: 20px;
+  padding: 20px; 
+}
+.custom-text {
+    color: white; 
+    font-size: 18px; 
+}
+.title {
+    color: white;
+    font-size: 24px; 
+    margin-bottom: 60px; 
+}
