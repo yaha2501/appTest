@@ -29,3 +29,18 @@
     font-size: 24px; 
     margin-bottom: 60px; 
 }
+.button-home {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  margin: 50px; 
+  background-color: green; 
+  font-size: 26px; 
+  border-style: none;  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.icon-home {
+  color: white; 
+}

@@ -25,7 +25,7 @@ export default function Questions() {
 
     for (let i = 0; i < LIST.length; i++) {
       if (values[i] === LIST[i].key) {
-        a += 2;
+        a += 1;
         c++;
       } else {
         b++;
@@ -56,7 +56,7 @@ export default function Questions() {
             <h1 className="indication">
               {cut + 1} of {LIST.length} questions
             </h1>
-            <Countdown seconds={10} />
+            <Countdown seconds={30} />
           </div>
           <span className="question">
             Question {cut + 1} : {val.question}
@@ -79,7 +79,8 @@ export default function Questions() {
               type="primary"
               onClick={Previous}
               className={
-                cut === 0 ? "custom-button-disable" : "custom-button-1"
+                // cut === 0 ? "custom-button-disable" : "custom-button-1"
+                cut === 0 ? "custom-button-1" : "custom-button-1"
               }
               disabled={cut === 0 ? true : false}
             >
